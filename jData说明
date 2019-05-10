@@ -1,0 +1,7 @@
+比赛链接 https://jdata.jd.com/html/detail.html?id=8
+需要说明的是，F11和F12不同于标准的F1分数，它们是F beta分数
+意味着F beta = (1+beta*beta)PR / ( (beta*beta*P)+R )
+beta>1时，查全率Recall更重要
+beta<1时，查准率Precision更重要
+本题中的F11和F12分别为sqrt(0.5)和sqrt(1.5),分别对应着查准率Precision更重要和查全率Recall更重要的情况。
+那么，既然F11和F12的beta不同，那么在做二分类时，probability的阈值threshold也应该不同。
