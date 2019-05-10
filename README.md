@@ -1,2 +1,1 @@
-# KaggleRecord
-记录一些有用的kernel
+记录参加的一些比赛
